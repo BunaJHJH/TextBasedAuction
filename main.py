@@ -61,21 +61,21 @@ class buyer:
 		return self.name
 		
 def main():
-	seller1 = seller("Charles")
-	seller2 = seller("Samantha")
-	seller3 = seller("Louis")
-	seller4 = seller("Dharma")
-	seller5 = seller("Jess")
+	seller1 = seller("Louis")
+	seller2 = seller("JoJo")
+	seller3 = seller("Carrie")
+	seller4 = seller("Jeremy")
+	seller5 = seller("Blaire")
 	item1 = item("Couch", 100, seller1)
 	item2 = item("Television", 120, seller2)
 	item3 = item("Printer", 140, seller3)
 	item4 = item("Computer", 160, seller4)
 	item5 = item("Book", 180, seller5)
-	buyer1 = buyer("Greg", 110, 20, 30, 40, 50)
-	buyer2 = buyer("Dave", 10, 120, 30, 40, 50)
-	buyer3 = buyer("Joe", 10, 20, 130, 40, 50)
-	buyer4 = buyer("Susan", 10, 20, 30, 140, 50)
-	buyer5 = buyer("Lisa", 10, 20, 30, 40, 200)
+	buyer1 = buyer("William", 110, 20, 30, 40, 50)
+	buyer2 = buyer("Emily", 10, 120, 30, 40, 50)
+	buyer3 = buyer("Daniel", 10, 20, 130, 40, 50)
+	buyer4 = buyer("Serena", 10, 20, 30, 140, 50)
+	buyer5 = buyer("Dan", 10, 20, 30, 40, 200)
 	
 	items = [item1, item2, item3, item4, item5]
 	buyers = [buyer1, buyer2, buyer3, buyer4, buyer5]
