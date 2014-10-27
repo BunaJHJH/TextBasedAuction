@@ -44,8 +44,8 @@ class item:
 	def getName(self):
 		return self.name
 	def printValues(self):
-		print "name:"+self.name
-		print "price:"+str(self.price)
+		print "name: "+self.name
+		print "price: "+str(self.price)
 
 class buyer:
 	def __init__(self, name, bid0=0, bid1=0, bid2=0, bid3=0, bid4=0):
@@ -53,8 +53,8 @@ class buyer:
 		self.bids.extend([bid0, bid1, bid2, bid3, bid4])
 		self.name = name
 	def printValues(self):
-		print "name:"+self.name
-		print "bids:"+str(self.bids)
+		print "name: "+self.name
+		print "bids: "+str(self.bids)
 	def getBid(self, index):
 		return self.bids[index]
 	def getName(self):
@@ -107,7 +107,7 @@ def main():
 			print ";"+items[j].getName(),
 		if i < 4:
 			print "]"
-	print "No items to auction remain."
+	print "There are no more items to auction."
 	
 	#log.printTransactions() #prints the transactions which occured, doesn't include unsold items
 
