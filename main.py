@@ -111,10 +111,13 @@ def main():
 	
 	#log.printTransactions() #prints the transactions which occured, doesn't include unsold items
 
-	print "Auction simulation complete!"
-	user = input("Would you like to show all transactions? y/n")
-	if user == 'y':
+	print "Auction simulation complete! \n"
+	user = raw_input("1. Would you like to show all transactions? y/n \n")
+	if user == "y":
 		log.printTransactions()
+
+	
+            
 		
 
 	
