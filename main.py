@@ -61,11 +61,11 @@ class buyer:
 		return self.name
 		
 def main():
-	seller1 = seller("Louis")
-	seller2 = seller("JoJo")
-	seller3 = seller("Carrie")
-	seller4 = seller("Jeremy")
-	seller5 = seller("Blaire")
+	seller1 = seller("Lane")
+	seller2 = seller("Bob")
+	seller3 = seller("Lura")
+	seller4 = seller("Peter")
+	seller5 = seller("Clair")
 	item1 = item("Couch", 100, seller1)
 	item2 = item("Television", 120, seller2)
 	item3 = item("Printer", 140, seller3)
